@@ -1,0 +1,105 @@
+# the Directive is a complete description of your application, including all of its business logic.
+# appVersion should be updated for each new deployment of your app.
+# atmoVersion declares which version of Atmo is used for the `subo dev` command.
+
+identifier: com.suborbital.jsTest
+appVersion: v0.1.0
+atmoVersion: v0.4.4
+
+
+handlers:
+  - type: request
+    resource: /hello
+    method: POST
+    steps:
+      - fn: helloworld
+
+  - type: request
+    resource: /hello1
+    method: POST
+    steps:
+      - fn: run1
+
+  - type: request
+    resource: /hello2
+    method: POST
+    steps:
+      - fn: run2
+
+  - type: request
+    resource: /hello3
+    method: POST
+    steps:
+      - fn: run3
+
+  - type: request
+    resource: /hello4
+    method: POST
+    steps:
+      - fn: run4
+
+  - type: request
+    resource: /hello5
+    method: POST
+    steps:
+      - fn: run5
+
+  - type: request
+    resource: /hello6
+    method: POST
+    steps:
+      - fn: run6
+
+  - type: request
+    resource: /hello7
+    method: POST
+    steps:
+      - fn: run7
+
+  - type: request
+    resource: /hello8
+    method: POST
+    steps:
+      - fn: run8
+
+  - type: request
+    resource: /hello9
+    method: POST
+    steps:
+      - fn: run9
+
+  - type: request
+    resource: /hello10
+    method: POST
+    steps:
+      - fn: run10
+
+  - type: request
+    resource: /hello11
+    method: POST
+    steps:
+      - fn: run11
+
+  - type: request
+    resource: /hello12
+    method: POST
+    steps:
+      - fn: run12
+
+  - type: request
+    resource: /hello13
+    method: POST
+    steps:
+      - fn: run13
+
+  - type: request
+    resource: /hello14
+    method: POST
+    steps:
+      - fn: run14
+
+  - type: request
+    resource: /hello15
+    method: POST
+    steps:
+      - fn: run15
